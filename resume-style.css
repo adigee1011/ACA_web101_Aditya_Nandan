@@ -1,3 +1,6 @@
+body {
+    font-family: 'Short Stack', cursive;
+}
 .container {
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
@@ -8,28 +11,43 @@
     grid-template-areas: 
             "img header"
             "contact details";
+    background: rgb(240, 236, 236);
 }
 
 
 .top-left {
     grid-area: img;
+    /* background-color: rgb(240, 236, 236); */
+    /* border: 5px red solid; */
 
+}
+
+header {
+    background: rgb(240, 236, 236);
 }
 
 .top-right {
     grid-area: header;
     margin: auto;
+    /* background-color: rgb(240, 236, 23k6); */
 }
 
 .bottom-left {
     grid-area: contact;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     text-align: center;
+    background: linear-gradient(10deg,#e66465, #9198e5);
+    
 }
 
 .bottom-right {
     grid-area: details;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background: linear-gradient(45deg,#e7b0b0, #b0b4e2);
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 .top-img {
@@ -37,7 +55,78 @@
     /* margin-top: 5px;
     margin-left: 10px; */
     padding-top: 20px;
-    padding-left: 20px;
-    height:200px; 
-    width:200px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    height:180px; 
+    width:180px;
 }
+
+@media (max-width:700px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.3fr 0.4fr 0.6fr;
+        /* width:800px; */
+        width:auto;
+        margin:auto;
+        border: 1px grey solid;
+        grid-template-areas: 
+                "img" 
+                "header"
+                "contact" 
+                "details";
+        background: rgb(240, 236, 236);
+    }
+
+    .top-left {
+        grid-area: img;
+        /* background-color: rgb(240, 236, 236); */
+        /* border: 5px red solid; */
+    
+    }
+    
+    header {
+        background: rgb(240, 236, 236);
+    }
+    
+    .top-right {
+        grid-area: header;
+        margin: auto;
+        text-align: center;
+        /* background-color: rgb(240, 236, 23k6); */
+    }
+    
+    .bottom-left {
+        grid-area: contact;
+        /* margin-top: 30px; */
+        text-align: center;
+        /* display: flex;
+        padding-top: 90px;
+        margin-left: 10px; */
+        background: linear-gradient(10deg,#e66465, #9198e5);
+        
+    }
+    
+    .bottom-right {
+        grid-area: details;
+       
+        /* margin-top: 30px; */
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        background: linear-gradient(45deg,#e7b0b0, #b0b4e2);
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .top-img {
+        margin: auto;
+        /* margin-top: 5px;
+        margin-left: 10px; */
+        /* padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px; */
+        height:100px; 
+        width:100px;
+    }
+    
+
+ }
