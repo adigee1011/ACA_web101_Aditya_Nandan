@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 0.3fr 1.5fr;
+    width:800px;
+    margin:auto;
+    border: 1px grey solid;
+    grid-template-areas: 
+            "img header"
+            "contact details";
+}
+
+
+.top-left {
+    grid-area: img;
+
+}
+
+.top-right {
+    grid-area: header;
+    margin: auto;
+}
+
+.bottom-left {
+    grid-area: contact;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bottom-right {
+    grid-area: details;
+    margin-top: 30px;
+}
+
+.top-img {
+    /* margin: auto; */
+    /* margin-top: 5px;
+    margin-left: 10px; */
+    padding-top: 20px;
+    padding-left: 20px;
+    height:200px; 
+    width:200px;
+}
