@@ -1,0 +1,215 @@
+body {
+    height: 500px;
+    /* width: 500px; */
+}
+
+.container {
+    width:80vw;
+    margin:auto;
+    height: 80%;
+    margin-top: 15%;
+    background-color: rgb(238, 190, 190);
+    display: grid;
+    /* grid-template-columns: 30v 30vh 30h 30vh 30vh ; */
+   /* grid-template-columns: 300pt 30pt 30pt 30pt 30pt; */
+   grid-template-columns: 16% 16% 16% 16% 16%;
+   grid-template-rows: 40% 40%;
+   grid-template-areas: 
+        "one one two three four"
+        "one one five six seven";
+    justify-items: center;
+}
+
+.first-box {
+    grid-area: one;
+    width:20vw;
+    height: 100%;
+    /* background-color: red; */
+    /* padding: 50%;
+    box-sizing: border-box; */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40%;
+    margin-left: 35%;
+    font-size: 50px;
+    color: white;
+}
+
+.small-box-1 {
+    background-color: hotpink;
+    grid-area: two;
+    width:13vw;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 15vw;
+   
+
+}
+
+.small-box-2 {
+    background-color: greenyellow;
+    grid-area: three;
+    width:100%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 20vw;
+   
+}
+
+.small-box-3 {
+    background-color: cyan;
+    grid-area: four;
+    width:13vw;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 25vw;   
+}
+
+.small-box-4 {
+    background-color: blue;
+    grid-area: five;
+    width:100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 15vw;
+}
+
+.small-box-5 {
+    background-color: orange;
+    grid-area: six;
+    width:100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 20vw;
+}
+
+.small-box-6 {
+    background-color: purple;
+    grid-area: seven;
+    width:100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 25vw;  
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width:750px) {
+    .container {
+        width:60%;
+        margin:auto;
+        height: 130vh;
+        margin-top: 15%;
+        background-color: rgb(238, 190, 190);
+        display: grid;
+        /* grid-template-columns: 30v 30vh 30h 30vh 30vh ; */
+       /* grid-template-columns: 300pt 30pt 30pt 30pt 30pt; */
+       grid-template-columns: 0.05fr 1fr 0.05fr;
+       grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh 15vh 15vh;
+       grid-template-areas: 
+            "... one ..."
+            "... one ..."
+            "... two ..."
+            "... three ..."
+            "... four ..."
+            "... five ..."
+            "... six ..."
+            "... seven ...";
+    }
+    .first-box {
+        grid-area: one;
+        width:20vw;
+        height: 5vh;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin: auto;
+        margin-top: 50%;
+    }
+    /* .second-box {
+        grid-area: two;
+    } */
+    
+    .small-box-1 {
+        background-color: hotpink;
+        grid-area: two;
+        width:20vw;
+        height: 20vw;
+        margin: auto;
+        margin-top: -15%;
+        /* margin-top: 40px; */
+       
+       
+    
+    }
+    
+    .small-box-2 {
+        background-color: greenyellow;
+        grid-area: three;
+        width:20vw;
+        height: 20vw;
+        margin: auto;
+        margin-top: -10%;
+        /* margin-top: 40px; */
+     
+       
+    }
+    
+    .small-box-3 {
+        background-color: cyan;
+        grid-area: four;
+        width:20vw;
+        height: 20vw;
+        margin: auto;
+        margin-top: -5%;
+        /* margin-top: 40px; */
+      
+    }
+    
+    .small-box-4 {
+        background-color: blue;
+        grid-area: five;
+        width:20vw;
+        height: 20vw;
+        margin: auto;
+        margin-top: 0%;
+        /* margin-top: 50px; */
+       
+    }
+    
+    .small-box-5 {
+        background-color: orange;
+        grid-area: six;
+        width:20vw;
+        height: 20vw;
+        margin: auto;
+        margin-top: 5%;
+        /* margin-top: 50px; */
+   
+    }
+    
+    .small-box-6 {
+        background-color: purple;
+        grid-area: seven;
+        width:20vw;
+        height: 20vw;
+        margin: auto;
+        margin-top: 10%;
+        /* margin-top: 50px; */
+      
+        
+    }
+    
+    
+}
