@@ -14,7 +14,7 @@ body {
     margin:auto;
     height: 80%;
     margin-top: 15%;
-    background-color: rgba(224, 95, 36, 0.522);
+    background-color: rgba(224, 95, 36, 0.5);
     display: grid;
     /* grid-template-columns: 30v 30vh 30h 30vh 30vh ; */
    /* grid-template-columns: 300pt 30pt 30pt 30pt 30pt; */
@@ -37,14 +37,14 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 35%;
     font-size: 50px;
     color: white;
 }
 
 .small-box-1 {
-    background-color: hotpink;
+    background-color: rgb(196, 43, 119,0.7);
     grid-area: two;
     width:13vw;
     height: 100%;
@@ -54,54 +54,80 @@ h1 {
     text-align: center;
     padding-top: 70px;
     box-sizing: border-box;
+    color: white;
    
 
 }
 
 .small-box-2 {
-    background-color: greenyellow;
+    background-color: rgb(142, 196, 61,0.7);
     grid-area: three;
     width:100%;
     height: 100%;
     margin-top: 40px;
     margin-left: 20vw;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    color: white;
    
 }
 
 .small-box-3 {
-    background-color: cyan;
+    background-color: rgb(55, 214, 214,0.7);
     grid-area: four;
     width:13vw;
     height: 100%;
     margin-top: 40px;
-    margin-left: 25vw;   
+    margin-left: 25vw;  
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    color: white; 
 }
 
 .small-box-4 {
-    background-color: blue;
+    background-color: rgb(72, 72, 223,0.7);
     grid-area: five;
     width:100%;
     height: 100%;
     margin-top: 50px;
     margin-left: 15vw;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    color: white;
 }
 
 .small-box-5 {
-    background-color: orange;
+    background-color: rgb(153, 130, 28,0.7);
     grid-area: six;
     width:100%;
     height: 100%;
     margin-top: 50px;
     margin-left: 20vw;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    color: white;
 }
 
 .small-box-6 {
-    background-color: purple;
+    background-color: rgb(131, 5, 131,0.7);
     grid-area: seven;
     width:100%;
     height: 100%;
     margin-top: 50px;
-    margin-left: 25vw;  
+    margin-left: 25vw; 
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    color: white; 
     
 }
 
