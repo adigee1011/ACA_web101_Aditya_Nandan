@@ -132,12 +132,6 @@ h1 {
 }
 
 
-
-
-
-
-
-
 @media (max-width:750px) {
     .container {
         width:60%;
@@ -178,71 +172,101 @@ h1 {
     } */
     
     .small-box-1 {
-        background-color: hotpink;
+        background-color: rgb(196, 43, 119,0.7);
         grid-area: two;
         width:20vw;
         height: 20vw;
         margin: auto;
         margin-top: -15%;
         /* margin-top: 40px; */
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        color: white;
        
        
     
     }
     
     .small-box-2 {
-        background-color: greenyellow;
+        background-color: rgb(142, 196, 61,0.7);
         grid-area: three;
         width:20vw;
         height: 20vw;
         margin: auto;
         margin-top: -10%;
         /* margin-top: 40px; */
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        color: white;
      
        
     }
     
     .small-box-3 {
-        background-color: cyan;
+        background-color: rgb(55, 214, 214,0.7);
         grid-area: four;
         width:20vw;
         height: 20vw;
         margin: auto;
         margin-top: -5%;
         /* margin-top: 40px; */
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        color: white;
       
     }
     
     .small-box-4 {
-        background-color: blue;
+        background-color: rgb(72, 72, 223,0.7);
         grid-area: five;
         width:20vw;
         height: 20vw;
         margin: auto;
         margin-top: 0%;
         /* margin-top: 50px; */
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        color: white;
        
     }
     
     .small-box-5 {
-        background-color: orange;
+        background-color: rgb(153, 130, 28,0.7);
         grid-area: six;
         width:20vw;
         height: 20vw;
         margin: auto;
         margin-top: 5%;
         /* margin-top: 50px; */
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        color: white;
    
     }
     
     .small-box-6 {
-        background-color: purple;
+        background-color: rgb(131, 5, 131,0.7);
         grid-area: seven;
         width:20vw;
         height: 20vw;
         margin: auto;
         margin-top: 10%;
         /* margin-top: 50px; */
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        color: white;
       
         
     }
