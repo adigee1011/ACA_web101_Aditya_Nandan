@@ -1,6 +1,11 @@
 body {
     height: 500px;
     /* width: 500px; */
+    background: url("fall.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 .container {
@@ -8,7 +13,7 @@ body {
     margin:auto;
     height: 80%;
     margin-top: 15%;
-    background-color: rgb(238, 190, 190);
+    background-color: rgba(224, 95, 36, 0.522);
     display: grid;
     /* grid-template-columns: 30v 30vh 30h 30vh 30vh ; */
    /* grid-template-columns: 300pt 30pt 30pt 30pt 30pt; */
